@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beach">
+
+    <TextView
+        android:id="@+id/txtVenice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/txtVenice"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imgBeach"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:contentDescription="@string/imgVenice"
+        app:srcCompat="@drawable/beach" />
+
+    <TextView
+        android:id="@+id/txtVeniceDes"
+        android:layout_width="318dp"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="61dp"
+        android:text="@string/txtVeniceDes"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMust2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="245dp"
+        android:text="@string/txtMust"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

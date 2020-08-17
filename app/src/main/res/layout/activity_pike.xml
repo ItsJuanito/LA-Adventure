@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pike">
+
+    <TextView
+        android:id="@+id/txtPike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/txtPike"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imgPike"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:contentDescription="@string/txtDescription"
+        app:srcCompat="@drawable/pike" />
+
+    <TextView
+        android:id="@+id/txtPikeDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginBottom="225dp"
+        android:text="@string/txtMust"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPikeInfo"
+        android:layout_width="295dp"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="@string/txtPikeCost"
+        android:textSize="18sp" />
+</RelativeLayout>

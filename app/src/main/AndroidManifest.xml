@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laadventure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pike"></activity>
+        <activity android:name=".SecondStreet" />
+        <activity android:name=".LBWinter" />
+        <activity android:name=".Winter" />
+        <activity android:name=".LAZoo" />
+        <activity android:name=".LALive" />
+        <activity android:name=".LAWinter" />
+        <activity android:name=".OCFair" />
+        <activity android:name=".Disney" />
+        <activity android:name=".Griffith" />
+        <activity android:name=".Beach" />
+        <activity android:name=".Pier" />
+        <activity android:name=".OCSummer" />
+        <activity android:name=".LASummer" />
+        <activity android:name=".Summer" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
